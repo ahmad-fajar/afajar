@@ -1,0 +1,137 @@
+* {
+  margin: auto;
+  padding: 0;
+  /*border: 1px solid;*/
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Righteous', cursive;
+  font-family: 'Roboto', sans-serif;
+  text-decoration:none;
+}
+
+article {
+  position: relative;
+  top: 150px;
+  font-family: Ubuntu;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #303030;
+  width: 650px;
+  height: 1000p
+  margin: 0 auto;
+}
+
+footer{
+  height: 20px;
+  width: 450px;
+  background-color: #808080;
+  position: relative;
+  top: 200px;
+  margin:auto;
+}
+
+h1, h2 {
+  font-family: Ubuntu;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #DBFFD3;  
+}
+
+h2 {
+  font-size: 18;
+  color: #DBFFD3;   
+}
+
+header {
+  height: 110px;
+  weight: 450px;
+  width: 450px;
+  margin-left: 100px;
+  margin-right:100px;
+  position: fixed;
+  z-index: 1;
+}
+
+li {
+  padding-left: 3px
+}
+ 
+ol {
+  padding: 0px 20px 0px 30px;
+}
+
+ul {
+  padding: 0px 20px 0px 30px;
+}
+
+ul p{
+  font-size: 14px;
+  padding: 5px 10px 10px 15px;
+  text-align:justify;
+}
+
+#normal-text {
+  font-size: 16px;
+  color: #fff;
+  text-align: justify;
+  line-height: 1.15em;
+  padding: 5px;
+}
+
+
+/* Dropdown Menu bagian header */
+
+.menu {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 0 1px;
+
+}
+
+.menu-container {
+
+ background-color: #808080;
+}
+
+.menu-lv1 {
+  font-family: Righteous;
+  font-size: 14px;
+  color: #d4d0c8;
+  text-decoration: none;
+  padding: 1px 10px;
+  cursor: pointer;
+}
+
+.menu-lv2 {
+  font-family: Righteous;
+  font-size: 12px;
+  width: 250px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin-top: 1px;
+}
+
+.menu-lv2 a {
+  text-decoration: none;
+  display: block;
+  border: 1px solid #d4d0c8;
+  padding: 4px 5px;
+  color: #fff;
+  background-color: rgba(211,215,220,0.7);
+}
+
+.menu:hover .menu-lv2 {
+  display: block;
+}
+
+.menu:hover menu-lv1{ }
+
+.menu-lv2 a:hover { }
